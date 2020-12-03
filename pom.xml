@@ -8,14 +8,14 @@
 		<version>2.4.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.com.charles</groupId>
-	<artifactId>rest-template-with-proxy</artifactId>
+	<groupId>br.com.charles-dias</groupId>
+	<artifactId>java-rest-caller</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>rest-template-with-proxy</name>
-	<description>Demo project with Spring, Rest Template in a proxy connection</description>
+	<name>java-rest-caller</name>
+	<description>Demo project for Spring Boot</description>
 
 	<properties>
-		<java.version>11</java.version>
+		<java.version>1.8</java.version>
 	</properties>
 
 	<dependencies>
@@ -28,6 +28,16 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpcore</artifactId>
+            <version>4.4.13</version>
+        </dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.5.13</version>
 		</dependency>
 	</dependencies>
 
